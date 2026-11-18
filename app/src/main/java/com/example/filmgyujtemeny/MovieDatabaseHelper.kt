@@ -1,11 +1,9 @@
-package com.example.filmgyujtemeny.ui.theme
+package com.example.filmgyujtemeny
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import androidx.annotation.Nullable
-import com.example.filmgyujtemeny.Movie
 
 class MovieDatabaseHelper(context: Context):
     SQLiteOpenHelper(context, "movies.db", null, 1){
